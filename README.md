@@ -26,9 +26,9 @@ front ng serve --host 0.0.0.0 --port 8000
 
 You can run container interactively and run multiple commands:
 ```bash
-# on the host
+# on the host in the project directory
 fronti
-# inside container
+# inside running container (project files are shared and accessible in the /opt directory)
 npm install
 ng serve --host 0.0.0.0 --port 8000
 ```
