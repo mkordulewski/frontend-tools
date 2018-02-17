@@ -1,0 +1,6 @@
+version: '2'
+services:
+    frontend-tools:
+        image: mkordulewski/frontend-tools
+        build:
+          context: .
