@@ -13,8 +13,8 @@ bower:       1.8.2
 
 Create aliases:
 ```bash
-alias front='docker run --rm -p 8000:8000 -v $(pwd):/opt -w /opt mkordulewski/frontend-tools'
-alias fronti='docker run -it --rm -p 8000:8000 -v $(pwd):/opt -w /opt mkordulewski/frontend-tools'
+alias front='docker run --rm -p 8000:8000 -v $(pwd):/opt -w /opt -u node mkordulewski/frontend-tools'
+alias fronti='docker run -it --rm -p 8000:8000 -v $(pwd):/opt -w /opt -u node mkordulewski/frontend-tools'
 ```
 You can add aliases to the `.bashrc` file.
 
