@@ -34,6 +34,17 @@ ng serve --host 0.0.0.0 --port 8000
 
 # Versions
 
+tag _2018-06-18_:
+```
+node:        10.4.1
+npm:         6.1.0
+ng:          6.0.8
+webpack:     4.12.0
+webpack-cli: 3.0.8
+gulp:        3.9.1
+bower:       1.8.4
+```
+
 tag _2018-02-20_:
 ```
 node:        9.5.0
