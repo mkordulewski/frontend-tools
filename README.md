@@ -1,5 +1,7 @@
 # Frontend tools docker image
 
+**DEPRECATED**
+
 Delivers:
 * Node JS
 * npm
