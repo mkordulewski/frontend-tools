@@ -1,6 +1,6 @@
 # Frontend tools docker image
 
-**DEPRECATED**
+**DEPRECATED, don't use it**
 
 Delivers:
 * Node JS
